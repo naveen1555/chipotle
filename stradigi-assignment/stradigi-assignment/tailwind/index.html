@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link href="/dist/output.css" rel="stylesheet" /> -->
+    <link href="style.css" rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="">
+      <!-- container mx-auto -->
+      <!-- min-h-screen -->
+      <nav
+        class="bg-[#fff] flex items-center justify-between max-w-full py-2 px-4 navbar"
+      >
+      <div class="content-center">
+        <div>
+<img class="burgerMenuIcon menu_icon_box" src="https://www.chipotle.com/content/dam/poc/order/images/icons/menu-hamburger.svg" alt="menu"/>
+        </div>
+        <img src="assets/brandLogo.svg"  class="brandLogoStyle"/>
+        <div class="sign-inlogo">
+        <img src="assets/user-outline.svg" width=40px height="40px"/>
+        <p >SIGN IN</p>
+        </div>
+      </div>
+        <ul class="flex items-center text-[#451400] font-bold flexgap fontSize menuList">
+          <li><a href="'#"> ORDER</a></li>
+          <li><a href="'#">CATERING</a></li>
+          <li><a href="'#">REWARDS</a></li>
+          <li><a href="'#">OUR VALUES</a></li>
+          <li><a href="'#">NUTRITION</a></li>
+        </ul>
+        <div class="find-a-chipotle-container"></div>
+        <div class="find-a-chipotle">
+
+          <img src="assets/pepper-small-white@3x.png" class="pepper-icon"/>
+          <span class="separator"></span>
+          <span class="find-a-chipotle-text">FIND A CHIPOTLE</span>
+        </div>
+        <img src="assets/bag.svg" />
+      </nav>
+
+      <!-- ////navbar -->
+  <div class="box">
+        <nav>
+            <ul class="flex items-center text-[#451400] font-bold flexgap fontSize mobileMenuList">
+          <li><a href="'#"> ORDER</a></li>
+          <li><a href="'#">CATERING</a></li>
+          <li><a href="'#">REWARDS</a></li>
+          <li><a href="'#">OUR VALUES</a></li>
+          <li><a href="'#">NUTRITION</a></li>
+        </ul>
+        </nav>
+      </div>
+
+      <!-- /////navbar -->
+
+    <div class="video-background home-video-lap">
+      <video class="zoomed-out-video" autoplay loop muted playsinline id="video-bg">
+        <source  src="assets/videos/home-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="content">
+        <p class="video-description">
+          Our most tender cuts of steak are back. Grilled fresh and finished
+          with fresh lime and cilantro.
+        </p>
+        <button class="mt-4 py-4 px-24 bg-[#AD2121] font-bold text-[#fff]">
+          ORDER NOW
+        </button>
+      </div>
+    </div>
+    
+    <div class="video-background home-video-mobile">
+      <video class="zoomed-out-video" autoplay loop muted playsinline id="video-bg">
+        <source  src="assets/videos/home-videoMobile.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="content">
+        <h6 class="video-description">
+          Our most tender cuts of steak are back. Grilled fresh and finished
+          with fresh lime and cilantro.
+        </h6>
+        <button class="mt-4 py-4 px-24 bg-[#AD2121] font-bold text-[#fff]">
+          ORDER NOW
+        </button>
+      </div>
+    </div>
+    
+
+      <div class="flex items-center py-2 justifyContent-center text-center section2" >
+        <img src="assets/points.png" width="55px" />
+        <h3 class="text-2xl font-semibold mt-4 mb-4">JOIN CHIPOTLE REWARDS. UNLOCK FREE CHIPOTLE.</h3>
+        <div class="section2Inner">
+        <div class="border border-2 create-button"><p class="font-bold">CREATE AN ACCOUNT</p></div>
+        <div><p>OR </p> </div>
+        <a class="sign-in font-semibold" href="#">SIGN IN</a>
+        </div>
+      </div>
+
+    
+
+      <section class="foodSection2  foodsection2mobile">
+        <!-- //4 -->
+        <div class="foodSection2ImgBlock img1">
+          <img  src="assets/foodItem4.png" class="imgzoom foodsection-image " /> 
+          <div class="foodSection2TextBlock">
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[40px] text-center foodsection2text"
+            >
+              BURRITO
+            </div>
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[20px] text-center displayNone"
+            >
+              ORDER
+            </div>
+          </div>
+        </div>
+        <!-- //5 -->
+        <div class="foodSection2ImgBlock"> 
+          <img src="assets/foodItem5.png" class="imgzoom foodsection-image" />
+          <div class="foodSection2TextBlock">
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[36px] text-center foodsection2text"
+            >
+              BURRITO BOWL
+            </div>
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[20px] text-center displayNone"
+            >
+              ORDER
+            </div>
+          </div>
+        </div>
+        <!-- //6 -->
+        <div class="foodSection2ImgBlock">
+          <img src="assets/foodItem6.png" class="imgzoom foodsection-image" />
+          <div class="foodSection2TextBlock">
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[36px] text-center foodsection2text"
+            >
+              LIFESTYLE BOWL
+            </div>
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[20px] text-center displayNone"
+            >
+              ORDER
+            </div>
+          </div>
+        </div>
+        <!-- //7 -->
+
+        <div class="foodSection2ImgBlock img4">
+          <img src="assets/foodItem7.png" class="imgzoom foodsection-image" />
+          <div class="foodSection2TextBlock">
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[40px] text-center foodsection2text"
+            >
+             QUESADILLA
+            </div>
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[20px] text-center displayNone"
+            >
+              ORDER
+            </div>
+          </div>
+        </div>
+
+        <!-- //8 -->
+        <div class="foodSection2ImgBlock img5">
+          <img src="assets/foodItem8.png" class="imgzoom foodsection-image" />
+          <div class="foodSection2TextBlock">
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[40px] text-center foodsection2text"
+            >
+              SALAD
+            </div>
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[20px] text-center displayNone"
+            >
+              ORDER
+            </div>
+          </div>
+        </div>
+        <!-- //9 -->
+        <div class="foodSection2ImgBlock img6">
+          <img src="assets/foodItem9.png" class="imgzoom foodsection-image" />
+          <div class="foodSection2TextBlock">
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[40px] text-center foodsection2text"
+            >
+              TACOS
+            </div>
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[20px] text-center displayNone"
+            >
+              ORDER
+            </div>
+          </div>
+        </div>
+        <!-- //10 -->
+        <div class="foodSection2ImgBlock img7">
+          <img src="assets/foodItem10.png" class="imgzoom foodsection-image" />
+          <div class="foodSection2TextBlock">
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[40px] text-center foodsection2text"
+            >
+              KID'S MEAL
+            </div>
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[20px] text-center displayNone"
+            >
+              ORDER
+            </div>
+          </div>
+        </div>
+        <!-- //11 -->
+        <div class="foodSection2ImgBlock">
+          <img src="assets/foodItem11.png" class="imgzoom foodsection-image" />
+          <div class="foodSection2TextBlock">
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[40px] text-center foodsection2text"
+            >
+              CHIPS & SIDES
+            </div>
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[20px] text-center displayNone"
+            >
+              ORDER
+            </div>
+          </div>
+        </div>
+        <!-- //12 -->
+        <div class="foodSection2ImgBlock img9">
+          <img src="assets/foodItem12.png" class="imgzoom foodsection-image" />
+          <div class="foodSection2TextBlock">
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[40px] text-center foodsection2text"
+            >
+              DRINKS
+            </div>
+            <div
+              class="px-4 py-2 bg-[#fff] font-bold text-[#000] text-[20px] text-center displayNone"
+            >
+              ORDER
+            </div>
+          </div>
+        </div>
+      </section>
+  
+ 
+      <section class="flex items-center py-20 px-20 section5">
+        <!-- 5th section-->
+        <div class="section5Block">
+          <div class="section5InnerTextBlock py-5 px-5">
+            <h3 class="font-bold text-[30px]">CARNE ASADA IS BACK</h3>
+            <p class="section5Para">
+              Our most tender cuts of steak are back on the grill. Carne Asada
+              is hand-seasoned and finished with fresh lime and cilantro.
+              Celebrate the return before it’s gone.
+            </p>
+            <button class="py-2 px-10 mt-16 bg-[#451400] font-bold text-[#fff]">
+              LEARN MORE
+            </button>
+          </div>
+          <div class="section5-video-hgt video1lap">
+            <video class="section5-video-hgt-max video1" autoplay="autoplay" muted="muted" loop="loop" src="assets/videos/video1.mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <!-- video mobile1 -->
+          <div class="section5-video-hgt ">
+            <video class="section5-video-hgt-max video1" autoplay="autoplay" muted="muted" loop="loop" src="assets/videos/video1Mobile.mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <!-- video mobile1 -->
+        </div>
+
+        <!-- /// -->
+        <div class="section5Block">
+          <div class="section5InnerTextBlock py-5 px-5 ">
+            <h3 class="font-bold text-[30px]">MAKE THEIR YEAR EXTRA</h3>
+            <p class="section5Para">
+              Celebrate all the hard-working students and teachers in your life
+              this back to school season with a Chipotle Gift Card. Something to
+              help make their year a little extra special.
+            </p>
+            <button class="py-2 px-10 bg-[#451400] font-bold text-[#fff] mt-16">
+              SHOP GIFT CARDS
+            </button>
+          </div>
+          <div class="section5-video-hgt video2lap">
+            <video class="section5-video-hgt-max " autoplay="autoplay" muted="muted" loop="loop"  src="assets/videos/video2.mp4">        
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="section5-video-hgt ">
+            <video class="section5-video-hgt-max " autoplay="autoplay" muted="muted" loop="loop"  src="assets/videos/video2Mobile.mp4">        
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+      <div class="bg-[url('assets/wallpaper.jpg')] font-bold py-20 px-20 tap-bgimage">
+        <div class="content-center display-col marb-38">
+          <div class="card-title">1-TAP ORDERS</div>
+          <div class="card-text">
+            Sometimes it's hard to choose. We made it easy with these favorites.
+          </div>
+          <button class="py-2 px-10 bg-[#451400] font-bold text-[#fff]">
+            FIND A CHIPOTLE
+          </button>
+        </div>
+
+        <section class="foodSection1">
+          <div>
+            <img src="assets/foodItem1.jpg" />
+            <div class="px-4 py-2 bg-[#fff] font-bold text-[#000]">
+              Fan Favorite Chicken Bowl
+            </div>
+          </div>
+          <div>
+            <img src="assets/foodItem2.jpg" />
+            <div class="px-4 py-2 bg-[#fff] font-bold text-[#000]">
+              Fan Favorite Steak Salad
+            </div>
+          </div>
+          <div>
+            <img src="assets/foodItem3.jpg" />
+            <div class="px-4 py-2 bg-[#fff] font-bold text-[#000]">
+              Fan Favorite Veggio Burrito
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="crowd-main-container">
+      <div class="content-center ">
+        <h1 class="f-36-600 font-48-600  text-center">CROWD PLEASERS</h1>
+      </div>
+      <div class="crowd-container">
+        <div class="crowd-container-inner">
+          <div class="catering-image catering-group-orders">
+            <h1 class="f-36-600 font-48-600  text-[#fff]">CATERING</h1>
+          </div>
+          <div  class="crowd-container-inner-textcontainer">
+     
+            <div class="crowd-container-inner-textPara">
+              From 6 to 200 people Starting <span>&nbsp;</span> at $8.25* / person Build Your Own <span>&nbsp;</span> Burritos by the Box <span>&nbsp;</span> Chips & Salsa
+               <div><b>Requires 24 hours notice</b>
+              </div>
+            </div>
+                     <div class="content-center ">
+            <button class="py-4 px-10 bg-[#a76721] font-bold text-[#fff]">
+              EXPLORE CATERING
+            </button>
+          </div>
+          </div>
+        </div>
+        <div class="crowd-container-inner">
+          <div class="group-order-image catering-group-orders">
+            <h1 class="f-36-600 font-48-600   text-[#fff]">GROUP ORDER</h1>
+          </div>
+          <div class="crowd-container-inner-textcontainer">
+      <div class="crowd-container-inner-textPara">
+              Order up to 15 meals total <span>&nbsp;</span> Normal menu pricing Full menu <span>&nbsp;</span>  Personalized meals  Organizer pays  
+               <div><b>Order and eat today</b>
+              </div>
+            </div>
+
+              <div class="content-center ">
+            <button class="py-4 px-10 bg-[#a76721] font-bold text-[#fff]">
+              STRAT A GROUP ORDER
+            </button>
+          </div>
+          </div>
+        
+        </div>
+      </div>
+    </section>
+    <footer class="footer-container">
+      <div>
+<ul class="footer-items">
+  <li>CONTACT SUPPORT</li>
+  <li>CAREERS</li>
+  <li>GIFT CARDS</li>
+  <li>CHIPOTLE GOODS</li>
+  <li>FUNDRAISING</li>
+</ul>
+<div class="display-row1 ">
+  <div class="display-col">
+  <h5> ABOUT</h5>
+  <div class="display-row wdt-550">
+
+   
+  <div class="ind-container">
+   
+    <ul class="display-col">
+      <li>Our Values</li>
+      <li>Health and Safety</li>
+      <li>All Locations</li>
+    </ul>
+  </div>
+  <div class="ind-container">
+    <ul class="display-col">
+      <li>News and Events</li>
+      <li>Cultivate Foundation</li>
+      <li>Sustainability</li>
+    </ul>
+  </div>
+  <div class="ind-container">
+
+    <ul class="display-col">
+      <li>Investors</li>
+      <li>Pizzeria Locale</li>
+      <li>Do Not Sell or Share My Personal Information / Your Opt-Out Rights</li>
+    </ul> 
+  </div>
+</div>
+</div>
+<div class="display-row">
+<div>
+  <h5  >CONNECT WITH US</h5>
+  <div class="social-media-icons-container">
+  <img src="assets/facebook.png" class="social-media-icons" />
+  <img src="assets/insta.png" class="social-media-icons"/>
+  <img src="assets/twitter.png" class="social-media-icons"/>
+</div>
+</div>
+
+<div>
+  <h5>DOWNLOAD OUR APP</h5>
+  <div class="social-media-icons-container apps">
+  <img src="assets/apple-store.png"/>
+  <img src="assets/google-play.png"/>
+</div>
+</div>
+</div>
+      </div>
+    </footer>
+    </div>
+    </div>
+  </body>
+
+    <script>
+    let menu_icon_box = document.querySelector(".menu_icon_box");
+    let box = document.querySelector(".box");
+
+    menu_icon_box.onclick = function () {
+      menu_icon_box.classList.toggle("active");
+      box.classList.toggle("active");
+    };
+  </script>
+</html>
